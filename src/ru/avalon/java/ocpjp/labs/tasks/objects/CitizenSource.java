@@ -23,8 +23,8 @@ public class CitizenSource implements Iterable<Citizen>{
     citizen = new ArrayList();
     int count = random.nextInt(10)+20;
     for(int i=0; i < count; i++) {
-        citizen.add(new RandomCitizen().create());
-	        }        
+            citizen.add(new RandomCitizen().create());
+	    }
     }
 
     @Override
